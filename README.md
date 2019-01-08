@@ -22,17 +22,17 @@ In SQL server, you will need to restore the skills database which is called `ski
 
 ## Default Users
 
-Username: Michael.Tugby@test.com
-Password: test123
-Role: User
+Username: Michael.Tugby@test.com   
+Password: test123   
+Role: User   
 
-Username: John.Doe@test.com
-Password: test123
-Role: Line Manager
+Username: John.Doe@test.com   
+Password: test123   
+Role: Line Manager   
 
 ## Live Website
 
-The live version of the project can be found (here)[www.skillsportaldemo.co.uk].
+The live version of the project can be found [here](www.skillsportaldemo.co.uk).
 
 ## Build Setup
 
