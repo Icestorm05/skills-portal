@@ -20,6 +20,8 @@ $ sudo xcode-select -s /Applications/Xcode.app/Contents/Developer
 
 In SQL server, you will need to restore the skills database which is called `skills.bak` in the root directory of this project.
 
+To setup authentication for the app, copy the file `server/config.sample.js` to `server/config.js` and fill out the JSON file with your authentication details to SQL Server and MongoDB.
+
 ## Default Users
 
 Username: Michael.Tugby@test.com   
@@ -38,7 +40,7 @@ The live version of the project can be found [here](www.skillsportaldemo.co.uk).
 
 First, install all dependencies:
 ```sh
-$ npm install # Or yarn install
+$ npm install
 ```
 
 ### Dev Server

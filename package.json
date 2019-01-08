@@ -53,7 +53,8 @@
     "test": "jest",
     "e2e": "node cypress/boot",
     "e2e-dev": "npx cypress open",
-    "generate": "nuxt generate"
+    "generate": "nuxt generate",
+    "postinstall": "cd server && npm install"
   },
   "devDependencies": {
     "@cypress/webpack-preprocessor": "1.1.3",
