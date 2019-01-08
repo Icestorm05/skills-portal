@@ -1,0 +1,112 @@
+{
+  "name": "skills-portal",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@nuxtjs/axios": "5.0.1",
+    "@nuxtjs/pwa": "2.0.5",
+    "@types/color": "3.0.0",
+    "@types/d3": "5.0.0",
+    "@types/js-cookie": "2.1.0",
+    "@types/node": "9.4.6",
+    "axios": "0.18.0",
+    "color": "3.0.0",
+    "core-js": "2.5.3",
+    "cross-env": "5.1.3",
+    "d3": "5.0.0-rc.4",
+    "es6-promise": "4.2.4",
+    "js-cookie": "2.2.0",
+    "mssql": "^4.3.0",
+    "nuxt": "1.3.0",
+    "nuxt-class-component": "1.2.0",
+    "object-fit-images": "3.2.3",
+    "postcss-object-fit-images": "1.1.2",
+    "pug": "2.0.0-rc.4",
+    "stylus": "0.54.5",
+    "stylus-loader": "3.0.2",
+    "ts-loader": "3.5.0",
+    "tslint": "5.9.1",
+    "tslint-config-prettier": "1.10.0",
+    "tslint-loader": "3.5.3",
+    "typescript": "2.7.2",
+    "vee-validate": "2.0.4",
+    "vue": "2.5.13",
+    "vue-class-component": "6.2.0",
+    "vue-loader": "14.2.0",
+    "vue-meta": "1.4.3",
+    "vue-property-decorator": "6.0.0",
+    "vue-router": "3.0.1",
+    "vue-scrollto": "2.11.0",
+    "vue-server-renderer": "2.5.13",
+    "vue-template-compiler": "2.5.13",
+    "vuetify": "1.0.15",
+    "vuex": "3.0.1",
+    "vuex-class": "0.3.0",
+    "vuex-router-sync": "5.0.0",
+    "webpack": "3.11.0",
+    "webpack-node-externals": "1.6.0"
+  },
+  "scripts": {
+    "dev": "node server",
+    "build": "nuxt build",
+    "start": "cross-env NODE_ENV=production node server",
+    "test": "jest",
+    "e2e": "node cypress/boot",
+    "e2e-dev": "npx cypress open",
+    "generate": "nuxt generate"
+  },
+  "devDependencies": {
+    "@cypress/webpack-preprocessor": "1.1.3",
+    "@types/chai": "4.1.2",
+    "@types/jest": "22.2.0",
+    "@vue/test-utils": "1.0.0-beta.12",
+    "babel-jest": "23.0.0-alpha.0",
+    "body-parser": "1.18.2",
+    "chai": "4.1.2",
+    "cookie-parser": "1.4.3",
+    "cypress": "2.0.4",
+    "express": "4.16.2",
+    "flush-promises": "1.0.0",
+    "jest": "22.4.2",
+    "jest-serializer-vue": "0.3.0",
+    "ts-jest": "22.4.0",
+    "vue-jest": "2.1.1",
+    "webpack-bundle-analyzer": "2.11.1"
+  },
+  "config": {
+    "nuxt": {
+      "host": "0.0.0.0",
+      "port": "3000"
+    }
+  },
+  "jest": {
+    "collectCoverage": true,
+    "collectCoverageFrom": [
+      "components/**/*.vue",
+      "layouts/**/*.vue",
+      "pages/**/*.vue",
+      "modules/**/*.ts",
+      "plugins/**/*.js",
+      "store/**/*.ts"
+    ],
+    "transform": {
+      "^.+\\.js?$": "babel-jest",
+      "^.+\\.ts?$": "ts-jest",
+      "^.+\\.vue?$": "vue-jest"
+    },
+    "testRegex": ".+\\.test.ts?$",
+    "moduleFileExtensions": [
+      "ts",
+      "js",
+      "vue",
+      "json"
+    ],
+    "moduleNameMapper": {
+      "^.+\\.(styl)$": "<rootDir>/assets/styl/mock.js",
+      "~(.*)$": "<rootDir>/$1"
+    },
+    "snapshotSerializers": [
+      "jest-serializer-vue"
+    ]
+  }
+}

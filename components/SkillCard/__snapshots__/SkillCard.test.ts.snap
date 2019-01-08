@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Skill Card snapshot has not changed 1`] = `
+<form novalidate="novalidate" class="SkillCard">
+    <div class="card card--raised" style="height: 100%;">
+        <div class="layout column fill-height">
+            <div class="card__title pb-0 card__title--primary">
+                <b class="SkillCardName">Test Skill</b>
+            </div>
+            <!---->
+            <div class="flex pa-0 SkillCardDescriptionContainer" style="visibility: visible;">
+                <div class="card__text pb-0 SkillCardDescription">This is a test skill.</div>
+            </div>
+            <div class="card__text">
+                <!---->
+                <div class="SkillCardStatus" currency="2" level="4"></div>
+            </div>
+            <div class="card__actions SkillCardButtons">
+                <button type="button" class="SkillCardAddButton btn btn--flat primary--text" aria-label="Add Skill">
+                    <div class="btn__content">Add</div>
+                </button>
+                <!---->
+                <!---->
+            </div>
+        </div>
+    </div>
+</form>
+`;

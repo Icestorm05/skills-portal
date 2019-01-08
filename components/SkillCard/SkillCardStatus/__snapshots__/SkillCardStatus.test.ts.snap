@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Skill Card Status snapshot has not changed 1`] = `
+<div class="layout SkillCardStatus text-xs-left full-width">
+    <div class="flex">
+        <p>
+            <b>Level: </b><span tabindex="0" class="chip SkillCardLevelStatus chip--small success white--text"><span class="chip__content">Expert</span></span>
+        </p>
+        <p>
+            <b>Currency: </b><span tabindex="0" class="chip SkillCardCurrencyStatus chip--small primary white--text"><span class="chip__content">Current</span></span>
+        </p>
+    </div>
+</div>
+`;

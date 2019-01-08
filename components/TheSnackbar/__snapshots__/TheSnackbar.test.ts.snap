@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The Snackbar error message snapshot has not changed 1`] = `
+<div class="snack snack--active snack--bottom" id="TheSnackbar">
+    <div class="snack__wrapper error">
+        <div class="snack__content"><span id="TheSnackbarMessage"><b class="mr-1">Error:</b><!---->Test Error Message</span>
+            <button type="button" class="ml-3 btn btn--flat" aria-label="Close Snackbar" id="TheSnackbarCloseButton">
+                <div class="btn__content">Close</div>
+            </button>
+        </div>
+    </div>
+</div>
+`;
+
+exports[`The Snackbar snapshot has not changed 1`] = `undefined`;
+
+exports[`The Snackbar success message snapshot has not changed 1`] = `
+<div class="snack snack--active snack--bottom" id="TheSnackbar">
+    <div class="snack__wrapper success">
+        <div class="snack__content"><span id="TheSnackbarMessage"><!----><!---->Test Success Message</span>
+            <button type="button" class="ml-3 btn btn--flat" aria-label="Close Snackbar" id="TheSnackbarCloseButton">
+                <div class="btn__content">Close</div>
+            </button>
+        </div>
+    </div>
+</div>
+`;
+
+exports[`The Snackbar warning message snapshot has not changed 1`] = `
+<div class="snack snack--active snack--bottom" id="TheSnackbar">
+    <div class="snack__wrapper warning">
+        <div class="snack__content"><span id="TheSnackbarMessage"><!----><b class="mr-1">Warning:</b>Test Success Message</span>
+            <button type="button" class="ml-3 btn btn--flat" aria-label="Close Snackbar" id="TheSnackbarCloseButton">
+                <div class="btn__content">Close</div>
+            </button>
+        </div>
+    </div>
+</div>
+`;

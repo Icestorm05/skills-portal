@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Skill Search snapshot has not changed 1`] = `
+<div id="SkillSearchContainer">
+    <div tabindex="-1" data-uid="8" class="mb-3 SkillSearch input-group input-group--append-icon input-group--prepend-icon input-group--solo input-group--text-field input-group--select input-group--autocomplete input-group--single-line input-group--chips input-group--multiple primary--text">
+        <label for="SkillSearch">Skill Search</label>
+        <div class="input-group__input">
+            <i aria-hidden="true" class="icon material-icons input-group__prepend-icon">search</i>
+            <div class="input-group__selections" style="overflow: hidden;">
+                <input autofocus="autofocus" id="SkillSearch" tabindex="0" role="combobox" class="input-group--select__autocomplete" autocomplete="off">
+            </div>
+            <div class="menu" style="display: inline-block;"></div>
+            <i aria-hidden="true" class="icon material-icons input-group__append-icon input-group__icon-cb">arrow_drop_down</i>
+        </div>
+        <div class="input-group__details">
+            <!---->
+        </div>
+    </div>
+</div>
+`;

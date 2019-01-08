@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Skill Search snapshot has not changed 1`] = `<span tabindex="0" class="chip chip--select-multi SkillSearchTag black--text"><span class="chip__content"><strong class="SkillSearchTagText"></strong></span></span>`;

@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The Tabs snapshot has not changed 1`] = `
+<div class="tabs" id="TheTabs">
+    <div class="tabs__bar secondary">
+        <!---->
+        <div class="tabs__wrapper">
+            <div class="tabs__container tabs__container--grow tabs__container--icons-and-text">
+                <div class="tabs__slider-wrapper">
+                    <div class="tabs__slider warning"></div>
+                </div>
+                <div class="tabs__div white--text Tab" id="ProfileTab">
+                    <nuxt-link class="tabs__item">Your Profile
+                        <i aria-hidden="true" class="icon material-icons">person</i>
+                    </nuxt-link>
+                </div>
+                <div class="tabs__div white--text Tab" id="SkillsTab">
+                    <nuxt-link class="tabs__item">Your Skills
+                        <i aria-hidden="true" class="icon material-icons">list</i>
+                    </nuxt-link>
+                </div>
+                <div class="tabs__div white--text Tab" id="AvailableSkillsTab">
+                    <nuxt-link class="tabs__item">Skills Catalogue
+                        <i aria-hidden="true" class="icon material-icons">playlist_add</i>
+                    </nuxt-link>
+                </div>
+                <!---->
+            </div>
+        </div>
+        <!---->
+    </div>
+</div>
+`;

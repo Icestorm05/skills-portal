@@ -1,0 +1,92 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`User Profile readonly snapshot has not changed 1`] = `
+<div class="elevation-12 card card--raised" style="height: auto;" id="UserProfile">
+    <div class="layout row wrap">
+        <div class="flex primary sm4 md3" id="UserProfileLeft">
+            <div class="card__title fill-height card__title--primary">
+                <div class="layout text-xs-center column align-center justify-center fill-width">
+                    <div id="UserProfileAvatar" class="avatar" style="height: 150px; width: 150px;">
+                        <!---->
+                    </div>
+                    <h3 id="UserProfileFullName" class="headline white--text text-xs-center">Jake Doe</h3>
+                    <i id="UserProfileJobTitle" class="subheading warning--text fill-width">Innovation Developer</i><span id="UserProfileCompany" class="white--text fill-width">Test Company</span></div>
+            </div>
+        </div>
+        <div class="flex sm8 md9" id="UserProfileRight">
+            <div class="card__text fill-height">
+                <form novalidate="novalidate" id="UserProfileForm" class="fill-height layout column">
+                    <div class="flex white-space">
+                        <b class="pa-0 primary--text">Biography</b>
+                        <p id="UserProfileBiography" class="light mb-0">Test Biography</p>
+                    </div>
+                    <hr class="divider no-flex my-3">
+                    <p class="light mb-1">
+                        <b class="primary--text mr-1">Email Address:</b><span id="UserProfileEmailAddress" class="break-word">test@test.com</span></p>
+                    <p class="light mb-1">
+                        <b class="primary--text mr-1">Director:</b><span id="UserProfileDirector" class="break-word">John Doe</span></p>
+                    <p class="light mb-1">
+                        <b class="primary--text mr-1">First Line Reporting:</b><span id="UserProfileFirstLineReporting" class="break-word">Jane Doe</span></p>
+                    <p class="light mb-1">
+                        <b class="primary--text mr-1">Second Line Reporting:</b><span id="UserProfileSecondLineReporting" class="break-word">Julie Doe</span></p>
+                    <!---->
+                    <!---->
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+`;
+
+exports[`User Profile snapshot has not changed 1`] = `
+<div class="elevation-12 card card--raised" style="height: auto;" id="UserProfile">
+    <div class="layout row wrap">
+        <div class="flex primary sm4 md3" id="UserProfileLeft">
+            <div class="card__title fill-height card__title--primary">
+                <div class="layout text-xs-center column align-center justify-center fill-width">
+                    <div id="UserProfileAvatar" class="avatar" style="height: 150px; width: 150px;">
+                        <!---->
+                    </div>
+                    <h3 id="UserProfileFullName" class="headline white--text text-xs-center">Jake Doe</h3>
+                    <i id="UserProfileJobTitle" class="subheading warning--text fill-width">Innovation Developer</i><span id="UserProfileCompany" class="white--text fill-width">Test Company</span></div>
+            </div>
+        </div>
+        <div class="flex sm8 md9" id="UserProfileRight">
+            <div class="card__text fill-height">
+                <form novalidate="novalidate" id="UserProfileForm" class="fill-height layout column">
+                    <div class="flex white-space">
+                        <div class="input-group input-group--dirty input-group--placeholder input-group--text-field input-group--multi-line primary--text" data-vv-id="1" aria-required="true" aria-invalid="false">
+                            <label for="UserProfileBiography">Biography</label>
+                            <div class="input-group__input">
+                                <textarea name="biography" data-vv-name="biography" id="UserProfileBiography" tabindex="0" placeholder="Enter your Biography here" rows="5"></textarea>
+                                <i aria-hidden="true" class="icon material-icons input-group__append-icon input-group__icon-cb input-group__icon-clearable">clear</i>
+                            </div>
+                            <div class="input-group__details">
+                                <!---->
+                                <div class="input-group__counter">14 / 100</div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr class="divider no-flex my-3">
+                    <p class="light mb-1">
+                        <b class="primary--text mr-1">Email Address:</b><span id="UserProfileEmailAddress" class="break-word">test@test.com</span></p>
+                    <p class="light mb-1">
+                        <b class="primary--text mr-1">Director:</b><span id="UserProfileDirector" class="break-word">John Doe</span></p>
+                    <p class="light mb-1">
+                        <b class="primary--text mr-1">First Line Reporting:</b><span id="UserProfileFirstLineReporting" class="break-word">Jane Doe</span></p>
+                    <p class="light mb-1">
+                        <b class="primary--text mr-1">Second Line Reporting:</b><span id="UserProfileSecondLineReporting" class="break-word">Julie Doe</span></p>
+                    <hr class="divider no-flex my-3">
+                    <div class="card__actions fill-width pa-0">
+                        <div class="layout full-width justify-center">
+                            <button type="submit" class="btn btn--flat primary--text" aria-label="Save Profile" id="UserProfileSaveButton">
+                                <div class="btn__content">Save</div>
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+`;

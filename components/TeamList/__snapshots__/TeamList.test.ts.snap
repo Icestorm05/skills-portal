@@ -1,0 +1,80 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Team List snapshot has not changed 1`] = `
+<div class="container fluid grid-list-md" id="TeamList">
+    <div class="list elevation-12 list--two-line">
+        <div class="list__group TeamMember">
+            <div class="list__group__header">
+                <div class="list__group__header__prepend-icon">
+                    <i aria-hidden="true" class="icon material-icons">verified_user</i>
+                </div>
+                <div>
+                    <div class="list__tile">
+                        <div class="list__tile__content">
+                            <div class="list__tile__title TeamMemberFullName">John Doe</div>
+                            <div class="list__tile__sub-title TeamMemberJobTitle"></div>
+                        </div>
+                        <div class="list__tile__avatar TeamMemberAvatar hidden-xs-only">
+                            <div class="avatar" style="height: 40px; width: 40px;">
+                                <img src="/765-default-avatar.jpg" alt="Avatar" class="AvatarImage">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="list__group__header__append-icon">
+                    <i aria-hidden="true" class="icon material-icons">keyboard_arrow_down</i>
+                </div>
+            </div>
+            <div class="list__group__items list__group__items--no-action" style="display: none;"></div>
+        </div>
+        <div class="list__group TeamMember">
+            <div class="list__group__header">
+                <div class="list__group__header__prepend-icon">
+                    <i aria-hidden="true" class="icon material-icons">warning</i>
+                </div>
+                <div>
+                    <div class="list__tile">
+                        <div class="list__tile__content">
+                            <div class="list__tile__title TeamMemberFullName">Jane Doe</div>
+                            <div class="list__tile__sub-title TeamMemberJobTitle"></div>
+                        </div>
+                        <div class="list__tile__avatar TeamMemberAvatar hidden-xs-only">
+                            <div class="avatar" style="height: 40px; width: 40px;">
+                                <img src="/765-default-avatar.jpg" alt="Avatar" class="AvatarImage">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="list__group__header__append-icon">
+                    <i aria-hidden="true" class="icon material-icons">keyboard_arrow_down</i>
+                </div>
+            </div>
+            <div class="list__group__items list__group__items--no-action" style="display: none;"></div>
+        </div>
+        <div class="list__group TeamMember">
+            <div class="list__group__header">
+                <div class="list__group__header__prepend-icon">
+                    <i aria-hidden="true" class="icon material-icons">warning</i>
+                </div>
+                <div>
+                    <div class="list__tile">
+                        <div class="list__tile__content">
+                            <div class="list__tile__title TeamMemberFullName">Jake Doe</div>
+                            <div class="list__tile__sub-title TeamMemberJobTitle"></div>
+                        </div>
+                        <div class="list__tile__avatar TeamMemberAvatar hidden-xs-only">
+                            <div class="avatar" style="height: 40px; width: 40px;">
+                                <img src="/765-default-avatar.jpg" alt="Avatar" class="AvatarImage">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="list__group__header__append-icon">
+                    <i aria-hidden="true" class="icon material-icons">keyboard_arrow_down</i>
+                </div>
+            </div>
+            <div class="list__group__items list__group__items--no-action" style="display: none;"></div>
+        </div>
+    </div>
+</div>
+`;

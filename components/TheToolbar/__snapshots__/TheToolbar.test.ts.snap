@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The Toolbar snapshot has not changed 1`] = `
+<nav class="toolbar toolbar--fixed primary" style="margin-top: 0px; padding-right: 0px; padding-left: 0px;" id="TheToolbar">
+    <div class="toolbar__content" style="height: 56px;">
+        <img alt="Skills Portal Logo" height="65%" src="~/assets/img/skills_logo.png" width="auto" id="TheToolbarSkillsLogo" class="ml-5">
+        <div class="spacer"></div>
+        <div class="menu" style="display: none;" id="TheToolbarAvatarMenu">
+            <div class="menu__activator">
+                <div id="TheToolbarAvatar" class="avatar mr-3" style="height: 48px; width: 48px;">
+                    <!---->
+                </div>
+            </div>
+        </div>
+        <button type="button" class="btn btn--flat btn--icon white--text" aria-label="Help" id="TheToolbarHelpButton" style="display: none;">
+            <div class="btn__content">
+                <i aria-hidden="true" class="icon material-icons">help_outline</i>
+            </div>
+        </button>
+        <button type="button" class="btn btn--flat btn--icon white--text" aria-label="Logout" id="TheToolbarLogoutButton" style="display: none;">
+            <div class="btn__content">
+                <i aria-hidden="true" class="icon material-icons">exit_to_app</i>
+            </div>
+        </button>
+    </div>
+</nav>
+`;

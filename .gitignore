@@ -1,0 +1,28 @@
+# dependencies
+node_modules
+
+# logs
+npm-debug.log
+
+# Nuxt build
+.nuxt
+
+# Nuxt generate
+dist
+
+# PWA
+sw.*
+
+# Server Credentials shouldn't be stored in source control
+server/config.js
+
+# Package-lock.json file causes build errors when going cross-platform will be recreated automatically at build time.
+**/package-lock.json
+
+## Avatars
+static/avatars/*
+
+# Test
+coverage
+cypress/videos
+cypress/screenshots

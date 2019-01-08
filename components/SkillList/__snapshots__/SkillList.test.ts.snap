@@ -1,0 +1,222 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Skill List lazy snapshot has not changed 1`] = `
+<div class="container SkillList pt-0 px-0 fluid grid-list-md">
+    <ul class="expansion-panel SkillPanels expansion-panel--popout">
+        <li tabindex="0" class="expansion-panel__container SkillPanel mb-2">
+            <div class="expansion-panel__header"><span class="white--text SkillPanelHeader">Test Skill Category 1</span>
+                <div class="header__icon">
+                    <i aria-hidden="true" class="icon material-icons">keyboard_arrow_down</i>
+                </div>
+            </div>
+            <div class="expansion-panel__body" style="display: none;"></div>
+        </li>
+        <li tabindex="0" class="expansion-panel__container SkillPanel mb-2">
+            <div class="expansion-panel__header"><span class="white--text SkillPanelHeader">Test Skill Category 2</span>
+                <div class="header__icon">
+                    <i aria-hidden="true" class="icon material-icons">keyboard_arrow_down</i>
+                </div>
+            </div>
+            <div class="expansion-panel__body" style="display: none;"></div>
+        </li>
+    </ul>
+    <!---->
+</div>
+`;
+
+exports[`Skill List snapshot has not changed 1`] = `
+<div class="container SkillList pt-0 px-0 fluid grid-list-md">
+    <ul class="expansion-panel SkillPanels expansion-panel--popout">
+        <li tabindex="0" class="expansion-panel__container SkillPanel mb-2">
+            <div class="expansion-panel__header"><span class="white--text SkillPanelHeader">Test Skill Category 1</span>
+                <div class="header__icon">
+                    <i aria-hidden="true" class="icon material-icons">keyboard_arrow_down</i>
+                </div>
+            </div>
+            <div class="expansion-panel__body" style="display: none;">
+                <p class="ma-3"></p>
+                <div class="container SkillList pt-0 px-0 fluid grid-list-md pl-3">
+                    <ul class="expansion-panel SkillPanels expansion-panel--popout">
+                        <li tabindex="0" class="expansion-panel__container SkillPanel mb-2">
+                            <div class="expansion-panel__header"><span class="white--text SkillPanelHeader">Test Skill Subcategory 1</span>
+                                <div class="header__icon">
+                                    <i aria-hidden="true" class="icon material-icons">keyboard_arrow_down</i>
+                                </div>
+                            </div>
+                            <div class="expansion-panel__body" style="display: none;">
+                                <p class="ma-3"></p>
+                                <div class="container SkillList pt-0 px-0 fluid grid-list-md pl-3">
+                                    <!---->
+                                    <div class="Skills data-iterator">
+                                        <div class="layout row wrap fill-width">
+                                            <div class="flex SkillContainer sm4"></div>
+                                        </div>
+                                        <div>
+                                            <div class="data-iterator__actions">
+                                                <div class="data-iterator__actions__select">Skills per page:
+                                                    <div tabindex="0" data-uid="16" aria-label="Skills per page:" role="combobox" class="input-group input-group--append-icon input-group--hide-details input-group--text-field input-group--select input-group--auto primary--text">
+                                                        <div class="input-group__input">
+                                                            <div class="input-group__selections" style="overflow: hidden;">
+                                                                <input aria-label="Skills per page:" disabled="disabled" tabindex="-1" class="input-group--select__autocomplete" style="display: none;">
+                                                            </div>
+                                                            <div class="menu" style="display: inline-block;"></div>
+                                                            <i aria-hidden="true" class="icon material-icons input-group__append-icon input-group__icon-cb">arrow_drop_down</i>
+                                                        </div>
+                                                        <div class="input-group__details"></div>
+                                                    </div>
+                                                </div>
+                                                <div class="data-iterator__actions__range-controls">
+                                                    <div class="data-iterator__actions__pagination">1-1 of 1</div>
+                                                    <button disabled="disabled" type="button" class="btn btn--disabled btn--flat btn--icon" aria-label="Previous page">
+                                                        <div class="btn__content">
+                                                            <i aria-hidden="true" class="icon material-icons">chevron_left</i>
+                                                        </div>
+                                                    </button>
+                                                    <button disabled="disabled" type="button" class="btn btn--disabled btn--flat btn--icon" aria-label="Next page">
+                                                        <div class="btn__content">
+                                                            <i aria-hidden="true" class="icon material-icons">chevron_right</i>
+                                                        </div>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li tabindex="0" class="expansion-panel__container SkillPanel mb-2">
+                            <div class="expansion-panel__header"><span class="white--text SkillPanelHeader">Test Skill Subcategory 2</span>
+                                <div class="header__icon">
+                                    <i aria-hidden="true" class="icon material-icons">keyboard_arrow_down</i>
+                                </div>
+                            </div>
+                            <div class="expansion-panel__body" style="display: none;">
+                                <p class="ma-3"></p>
+                                <div class="container SkillList pt-0 px-0 fluid grid-list-md pl-3">
+                                    <!---->
+                                    <div class="Skills data-iterator">
+                                        <div class="layout row wrap fill-width">
+                                            <div class="flex SkillContainer sm4"></div>
+                                        </div>
+                                        <div>
+                                            <div class="data-iterator__actions">
+                                                <div class="data-iterator__actions__select">Skills per page:
+                                                    <div tabindex="0" data-uid="32" aria-label="Skills per page:" role="combobox" class="input-group input-group--append-icon input-group--hide-details input-group--text-field input-group--select input-group--auto primary--text">
+                                                        <div class="input-group__input">
+                                                            <div class="input-group__selections" style="overflow: hidden;">
+                                                                <input aria-label="Skills per page:" disabled="disabled" tabindex="-1" class="input-group--select__autocomplete" style="display: none;">
+                                                            </div>
+                                                            <div class="menu" style="display: inline-block;"></div>
+                                                            <i aria-hidden="true" class="icon material-icons input-group__append-icon input-group__icon-cb">arrow_drop_down</i>
+                                                        </div>
+                                                        <div class="input-group__details"></div>
+                                                    </div>
+                                                </div>
+                                                <div class="data-iterator__actions__range-controls">
+                                                    <div class="data-iterator__actions__pagination">1-1 of 1</div>
+                                                    <button disabled="disabled" type="button" class="btn btn--disabled btn--flat btn--icon" aria-label="Previous page">
+                                                        <div class="btn__content">
+                                                            <i aria-hidden="true" class="icon material-icons">chevron_left</i>
+                                                        </div>
+                                                    </button>
+                                                    <button disabled="disabled" type="button" class="btn btn--disabled btn--flat btn--icon" aria-label="Next page">
+                                                        <div class="btn__content">
+                                                            <i aria-hidden="true" class="icon material-icons">chevron_right</i>
+                                                        </div>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="Skills data-iterator">
+                        <div class="layout row wrap fill-width">
+                            <div class="flex SkillContainer sm4"></div>
+                        </div>
+                        <div>
+                            <div class="data-iterator__actions">
+                                <div class="data-iterator__actions__select">Skills per page:
+                                    <div tabindex="0" data-uid="45" aria-label="Skills per page:" role="combobox" class="input-group input-group--append-icon input-group--hide-details input-group--text-field input-group--select input-group--auto primary--text">
+                                        <div class="input-group__input">
+                                            <div class="input-group__selections" style="overflow: hidden;">
+                                                <input aria-label="Skills per page:" disabled="disabled" tabindex="-1" class="input-group--select__autocomplete" style="display: none;">
+                                            </div>
+                                            <div class="menu" style="display: inline-block;"></div>
+                                            <i aria-hidden="true" class="icon material-icons input-group__append-icon input-group__icon-cb">arrow_drop_down</i>
+                                        </div>
+                                        <div class="input-group__details"></div>
+                                    </div>
+                                </div>
+                                <div class="data-iterator__actions__range-controls">
+                                    <div class="data-iterator__actions__pagination">1-1 of 1</div>
+                                    <button disabled="disabled" type="button" class="btn btn--disabled btn--flat btn--icon" aria-label="Previous page">
+                                        <div class="btn__content">
+                                            <i aria-hidden="true" class="icon material-icons">chevron_left</i>
+                                        </div>
+                                    </button>
+                                    <button disabled="disabled" type="button" class="btn btn--disabled btn--flat btn--icon" aria-label="Next page">
+                                        <div class="btn__content">
+                                            <i aria-hidden="true" class="icon material-icons">chevron_right</i>
+                                        </div>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li tabindex="0" class="expansion-panel__container SkillPanel mb-2">
+            <div class="expansion-panel__header"><span class="white--text SkillPanelHeader">Test Skill Category 2</span>
+                <div class="header__icon">
+                    <i aria-hidden="true" class="icon material-icons">keyboard_arrow_down</i>
+                </div>
+            </div>
+            <div class="expansion-panel__body" style="display: none;">
+                <p class="ma-3"></p>
+                <div class="container SkillList pt-0 px-0 fluid grid-list-md pl-3">
+                    <!---->
+                    <div class="Skills data-iterator">
+                        <div class="layout row wrap fill-width">
+                            <div class="flex SkillContainer sm4"></div>
+                        </div>
+                        <div>
+                            <div class="data-iterator__actions">
+                                <div class="data-iterator__actions__select">Skills per page:
+                                    <div tabindex="0" data-uid="61" aria-label="Skills per page:" role="combobox" class="input-group input-group--append-icon input-group--hide-details input-group--text-field input-group--select input-group--auto primary--text">
+                                        <div class="input-group__input">
+                                            <div class="input-group__selections" style="overflow: hidden;">
+                                                <input aria-label="Skills per page:" disabled="disabled" tabindex="-1" class="input-group--select__autocomplete" style="display: none;">
+                                            </div>
+                                            <div class="menu" style="display: inline-block;"></div>
+                                            <i aria-hidden="true" class="icon material-icons input-group__append-icon input-group__icon-cb">arrow_drop_down</i>
+                                        </div>
+                                        <div class="input-group__details"></div>
+                                    </div>
+                                </div>
+                                <div class="data-iterator__actions__range-controls">
+                                    <div class="data-iterator__actions__pagination">1-1 of 1</div>
+                                    <button disabled="disabled" type="button" class="btn btn--disabled btn--flat btn--icon" aria-label="Previous page">
+                                        <div class="btn__content">
+                                            <i aria-hidden="true" class="icon material-icons">chevron_left</i>
+                                        </div>
+                                    </button>
+                                    <button disabled="disabled" type="button" class="btn btn--disabled btn--flat btn--icon" aria-label="Next page">
+                                        <div class="btn__content">
+                                            <i aria-hidden="true" class="icon material-icons">chevron_right</i>
+                                        </div>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </li>
+    </ul>
+    <!---->
+</div>
+`;

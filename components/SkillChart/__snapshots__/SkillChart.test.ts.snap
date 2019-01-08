@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Skill Chart snapshot has not changed 1`] = `
+<div id="SkillChartWrapper">
+    <div id="SkillChartContainer">
+        <div id="SkillChart">
+            <!---->
+            <svg id="SkillChartSvg">
+                <g id="SkillChartSvgContainer"></g>
+            </svg>
+        </div>
+        <!---->
+    </div>
+</div>
+`;

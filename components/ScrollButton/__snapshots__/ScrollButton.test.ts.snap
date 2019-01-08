@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Scroll Button snapshot has not changed 1`] = `
+<button type="button" class="ScrollButton btn btn--bottom btn--floating btn--fixed btn--left primary" aria-label="Scroll Down">
+    <div class="btn__content">
+        <i aria-hidden="true" class="icon ScrollButtonIcon material-icons">keyboard_arrow_down</i>
+    </div>
+</button>
+`;

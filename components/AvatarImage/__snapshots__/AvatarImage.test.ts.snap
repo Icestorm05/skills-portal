@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Avatar Image default base64 snapshot has not changed 1`] = `<img src="data:image/jpg;base64,AA==" alt="Avatar" class="AvatarImage">`;
+
+exports[`Avatar Image default snapshot has not changed 1`] = `<img src="/765-default-avatar.jpg" alt="Avatar" class="AvatarImage">`;
+
+exports[`Avatar Image image base64 snapshot has not changed 1`] = `<img src="data:image/jpg;base64,AA==" alt="Avatar" class="AvatarImage">`;
+
+exports[`Avatar Image image snapshot has not changed 1`] = `<img src="/avatars/test.jpg" alt="Avatar" class="AvatarImage">`;

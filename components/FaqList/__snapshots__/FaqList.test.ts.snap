@@ -1,0 +1,139 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FAQ List lazy snapshot has not changed 1`] = `
+<ul class="expansion-panel expansion-panel--popout" id="FaqList">
+    <li tabindex="0" class="expansion-panel__container FaqPanel mb-2">
+        <div class="expansion-panel__header"><span class="white--text FaqPanelHeader">Test Question 1</span>
+            <div class="header__icon">
+                <i aria-hidden="true" class="icon material-icons">keyboard_arrow_down</i>
+            </div>
+        </div>
+        <div class="expansion-panel__body" style="display: none;"></div>
+    </li>
+    <li tabindex="0" class="expansion-panel__container FaqPanel mb-2">
+        <div class="expansion-panel__header"><span class="white--text FaqPanelHeader">Test Question 2</span>
+            <div class="header__icon">
+                <i aria-hidden="true" class="icon material-icons">keyboard_arrow_down</i>
+            </div>
+        </div>
+        <div class="expansion-panel__body" style="display: none;"></div>
+    </li>
+    <li tabindex="0" class="expansion-panel__container FaqPanel mb-2">
+        <div class="expansion-panel__header"><span class="white--text FaqPanelHeader">Test Question 3</span>
+            <div class="header__icon">
+                <i aria-hidden="true" class="icon material-icons">keyboard_arrow_down</i>
+            </div>
+        </div>
+        <div class="expansion-panel__body" style="display: none;"></div>
+    </li>
+    <li tabindex="0" class="expansion-panel__container FaqPanel mb-2">
+        <div class="expansion-panel__header"><span class="white--text FaqPanelHeader">Test Question 4</span>
+            <div class="header__icon">
+                <i aria-hidden="true" class="icon material-icons">keyboard_arrow_down</i>
+            </div>
+        </div>
+        <div class="expansion-panel__body" style="display: none;"></div>
+    </li>
+</ul>
+`;
+
+exports[`FAQ List snapshot has not changed 1`] = `
+<ul class="expansion-panel expansion-panel--popout" id="FaqList">
+    <li tabindex="0" class="expansion-panel__container FaqPanel mb-2">
+        <div class="expansion-panel__header"><span class="white--text FaqPanelHeader">Test Question 1</span>
+            <div class="header__icon">
+                <i aria-hidden="true" class="icon material-icons">keyboard_arrow_down</i>
+            </div>
+        </div>
+        <div class="expansion-panel__body" style="display: none;">
+            <div class="FaqPanelCard card" style="height: auto;">
+                <!---->
+                <div class="card__text FaqPanelCardContent pb-0">
+                    <p>Test Paragraph 1</p>
+                </div>
+                <!---->
+                <!---->
+                <!---->
+                <div class="card__text FaqPanelCardContent pb-0 pt-0">
+                    <p>Test Paragraph 2</p>
+                </div>
+                <!---->
+                <!---->
+            </div>
+        </div>
+    </li>
+    <li tabindex="0" class="expansion-panel__container FaqPanel mb-2">
+        <div class="expansion-panel__header"><span class="white--text FaqPanelHeader">Test Question 2</span>
+            <div class="header__icon">
+                <i aria-hidden="true" class="icon material-icons">keyboard_arrow_down</i>
+            </div>
+        </div>
+        <div class="expansion-panel__body" style="display: none;">
+            <div class="FaqPanelCard card" style="height: auto;">
+                <div class="card__title FaqPanelCardContentTitle py-0">
+                    <b>Test Bold Answer 1</b>
+                </div>
+                <!---->
+                <!---->
+                <!---->
+                <div class="card__title FaqPanelCardContentTitle py-0">
+                    <b>Test Bold Answer 2</b>
+                </div>
+                <!---->
+                <!---->
+                <!---->
+            </div>
+        </div>
+    </li>
+    <li tabindex="0" class="expansion-panel__container FaqPanel mb-2">
+        <div class="expansion-panel__header"><span class="white--text FaqPanelHeader">Test Question 3</span>
+            <div class="header__icon">
+                <i aria-hidden="true" class="icon material-icons">keyboard_arrow_down</i>
+            </div>
+        </div>
+        <div class="expansion-panel__body" style="display: none;">
+            <div class="FaqPanelCard card" style="height: auto;">
+                <!---->
+                <!---->
+                <div class="card__text FaqPanelCardContent pb-0">
+                    <ul class="ml-3">
+                        <li>Test Bullet Answer 1</li>
+                        <li>Test Bullet Answer 2</li>
+                    </ul>
+                </div>
+                <!---->
+            </div>
+        </div>
+    </li>
+    <li tabindex="0" class="expansion-panel__container FaqPanel mb-2">
+        <div class="expansion-panel__header"><span class="white--text FaqPanelHeader">Test Question 4</span>
+            <div class="header__icon">
+                <i aria-hidden="true" class="icon material-icons">keyboard_arrow_down</i>
+            </div>
+        </div>
+        <div class="expansion-panel__body" style="display: none;">
+            <div class="FaqPanelCard card" style="height: auto;">
+                <!---->
+                <!---->
+                <!---->
+                <div class="FaqPanelCardContent">
+                    <div class="table__overflow">
+                        <table class="datatable table">
+                            <tbody>
+                                <tr>
+                                    <td>row1-col1</td>
+                                    <td>row1-col2</td>
+                                </tr>
+                                <tr>
+                                    <td>row2-col1</td>
+                                    <td>row2-col2</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </li>
+</ul>
+`;

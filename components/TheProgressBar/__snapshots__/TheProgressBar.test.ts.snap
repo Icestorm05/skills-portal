@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The Progress Bar snapshot has not changed 1`] = `
+<div class="progress-linear ma-0" style="height: 4px;" id="TheProgressBar">
+    <div class="progress-linear__background secondary" style="height: 4px; opacity: 0.3; width: 100%;"></div>
+    <div class="progress-linear__bar">
+        <div class="progress-linear__bar__indeterminate progress-linear__bar__indeterminate--active">
+            <div class="progress-linear__bar__indeterminate long secondary"></div>
+            <div class="progress-linear__bar__indeterminate short secondary"></div>
+        </div>
+        <!---->
+    </div>
+</div>
+`;

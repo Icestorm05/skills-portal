@@ -1,0 +1,34 @@
+{
+  "name": "skills-portal-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "asyncawait": "1.0.6",
+    "bcrypt": "2.0.0",
+    "body-parser": "1.18.2",
+    "compression": "1.7.2",
+    "cookie-parser": "1.4.3",
+    "cors": "2.8.4",
+    "express": "4.16.2",
+    "jsonwebtoken": "8.1.1",
+    "method-override": "2.3.10",
+    "mime": "2.2.0",
+    "mongodb": "2.2.31",
+    "mssql": "4.1.0",
+    "passport": "0.4.0",
+    "passport-jwt": "3.0.1",
+    "sqlstring": "2.3.0",
+    "tracer": "0.8.11"
+  }
+}
