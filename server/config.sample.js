@@ -20,7 +20,7 @@ module.exports = {
 		port: 27017,
 		user: '',
 		password: '',
-		database: 'skills',
+		database: '',
 		collection: 'skills_audit'
 	}
 }
